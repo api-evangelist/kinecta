@@ -1,7 +1,23 @@
 aid: kinecta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinecta.png
 name: Kinecta
-description: Kinecta is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kinecta Corporation was a venture-backed provider of software infrastructure
+  for content distribution, funded by Canaan Partners and reaching a Series B stage.
+  It is surfaced in the API Evangelist network as a portfolio-lead stub. The company
+  is no longer operating as an independent provider and publishes no active developer
+  surface, API, documentation, or developer portal, so there are no API artifacts to
+  enrich. This profile is retained as a historical VC-portfolio identity record.
 url: https://raw.githubusercontent.com/api-evangelist/kinecta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,23 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-sector: content-distribution
+x-funding-stage: series-b
+x-enrichment: 'no-api-surface: defunct company, no live website/docs/API found on
+  2026-07-19; verified via canaan.com portfolio profile (past-tense description).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Content Distribution
+- Software Infrastructure
+- Venture Backed
+- Defunct
+common:
+- type: CompanyProfile
+  url: https://www.canaan.com/companies/kinecta-corporation
 apis: []
 maintainers:
 - FN: Kin Lane
