@@ -30,7 +30,7 @@ x-sector: content-distribution
 x-funding-stage: series-b
 x-enrichment: 'no-api-surface: defunct company, no live website/docs/API found on
   2026-07-19; verified via canaan.com portfolio profile (past-tense description).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
